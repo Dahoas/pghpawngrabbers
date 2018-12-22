@@ -136,7 +136,7 @@ a:hover{
 .playerImage{
 	max-width:100%;
 	height:auto;
-	text-align
+	/* text-align */
 }
 
 .fixed{
@@ -167,16 +167,16 @@ a:hover{
     text-align: center;
 }
 
-        .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
 }
 
- .header{
-            float: none
-            text-align: center;
-        }
+.header{
+    float: none;
+    text-align: center;
+}
 
 .news h2{
     text-align: center
@@ -265,3 +265,10 @@ h2{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
    
+
+/* responsive */
+@media only screen and (min-width: 1280px) {
+    .container, .header {
+      width: 1024px;
+    }
+  }
